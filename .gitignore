@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.env
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+
+# Static & Media
+staticfiles/
+media/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GitHub Actions Secrets
+secrets/
+*.pem
+*.key
+
+# Docker
+docker-compose.override.yml
+
+# Pytest
+.pytest_cache/
+
+# Migrations cache
+*.mo
+*.pot
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environment Variables
+.env.local
+.env.production
+.env.development
+
+# Backup
+*.bak
+*.backup
+
+# SQLite
+*.sqlite3
+
+# Nginx Cache
+nginx/cache/
+
+# Local uploads
+uploads/
