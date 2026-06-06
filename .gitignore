@@ -64,3 +64,16 @@ nginx/cache/
 
 # Local uploads
 uploads/
+
+
+
+# Secrets
+.env
+.env.*
+!env.example
+
+# Certificates
+*.crt
+*.csr
+*.pfx
+*.p12
